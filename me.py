@@ -3,6 +3,7 @@ import base64
 
 #---Miscellaneous---#
 st.set_page_config(layout="centered")
+st.snow()
 
 def get_image(image_path):
     with open(image_path, "rb") as f:
@@ -75,7 +76,7 @@ st.divider()
 # ---- Education and Achievements --- #
 
 st.markdown(f"""<h2 style='font-size:45px; text-align:center; text-shadow: 0 0 5px #63c5da, 0 0 5px #63c5da, 0 0 10px #63c5da;'>📚 Education and Achievements</h2>
-                <p style='font-size:17px;'>
+                <p style='font-size:17px; text-align:justify;'>
                 A journey of knowledge and accomplishments that shaped who I am today. 
                 Throughout my academic path, I’ve gained not only knowledge from the classroom 
                 but also valuable experiences through collaboration, projects, and personal exploration.
@@ -128,7 +129,7 @@ st.divider()
 # --- Skills and Interests --- #
 
 st.markdown(f"""<h2 style='font-size:45px; text-align:center; text-shadow: 0 0 5px #63c5da, 0 0 5px #63c5da, 0 0 10px #63c5da;'>⚙️ Skills and Interests</h2>
-            <p style='font-size:17px;'>
+            <p style='font-size:17px; text-align:justify;'>
             A diverse set of skills and interests that I have developed along my journey.
             The different environments I've exposed myself to have allowed me to cultivate a wide range of abilities.
             These skills fuel my passion for technology and creativity.
@@ -148,7 +149,7 @@ st.divider()
 # ---- Future Goals and Aspirations --- #
 
 st.markdown(f"""<h2 style='font-size:40px; text-align:center; text-shadow: 0 0 5px #63c5da, 0 0 5px #63c5da, 0 0 10px #63c5da;'>🎯 Goals and Aspirations</h2>
-            <p style='font-size:17px;'>
+            <p style='font-size:17px; text-align:justify;'>
             The set of goals and aspirations that drive me forward.
             As I continue my journey, I am committed to pursuing excellence in my field and 
             making a positive impact on the world around me. I aim to continuously learn, grow, 
