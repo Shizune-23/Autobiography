@@ -160,6 +160,8 @@ st.markdown(f"""<h2 style='font-size:40px; text-align:center; text-shadow: 0 0 5
                 <li>Learn about game design and development, and create my own game.</li>
                 <li>Stay consistent with my routine and achieve target body weight.</li>
                 <li>Recreate more cooking recipes.</li>
+                <li>Keep being curious. Explore new things.</li>
+                <li>Always try to be better</li>
             </ul>
             <h4>🎓 Academic Goals</h4>
             <ul>
@@ -167,6 +169,14 @@ st.markdown(f"""<h2 style='font-size:40px; text-align:center; text-shadow: 0 0 5
                 <li>Develop a strong foundation in programming and software development.</li>
                 <li>Participate in hackathons and coding competitions.</li>
                 <li>Build a strong academic portfolio through personal and capstone projects.</li>
+            </ul>
+            <h4>💼 Professional Goals</h4>
+            <ul>
+                <li>Secure an internship or entry-level position in a reputable tech company.</li>
+                <li>Contribute to open-source projects to gain real-world experience.</li>
+                <li>Pass relevant certifications such as PL300, DP300, AZ-900 to enhance my credentials.</li>
+                <li>Continuously improve my coding skills and stay updated with industry trends.</li>
+                <li>Network with professionals in the tech industry to learn and grow.</li>
             </ul>
             """, unsafe_allow_html=True)
 
