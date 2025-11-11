@@ -181,7 +181,35 @@ st.markdown(f"""<h2 style='font-size:40px; text-align:center; text-shadow: 0 0 5
             </ul>
             """, unsafe_allow_html=True)
 
-goal = st.slider("On a scale of 0 to 100, how confident are you that I will achieve my goals?", 0, 100, 75)
+tab5, tab6, tab7 = st.tabs(["💫 Personal", "🎓 Academic", "💼 Professional"])
+
+with tab5:
+    st.markdown("""
+        - Achieve 100% in all the video games in my Steam Library.
+        - Learn about game design and development, and create my own game.
+        - Stay consistent with my routine and achieve target body weight.
+        - Recreate more cooking recipes.
+        - Keep being curious. Explore new things.
+        - Always try to be better
+    """)
+with tab6:
+    st.markdown("""
+        - Graduate with honors in Computer Science.
+        - Develop a strong foundation in programming and software development.
+        - Participate in hackathons and coding competitions.
+        - Build a strong academic portfolio through personal and capstone projects.
+    """)
+with tab7:
+    st.markdown("""
+        - Secure an internship or entry-level position in a reputable tech company.
+        - Contribute to open-source projects to gain real-world experience.
+        - Pass relevant certifications such as PL300, DP300, AZ-900 to enhance my credentials.
+        - Continuously improve my coding skills and stay updated with industry trends.
+        - Network with professionals in the tech industry to learn and grow.
+    """)
+
+st.write("&nbsp;")
+goal = st.slider("How confident are you that I will achieve my goals?", 0, 100, 75)
 st.write(f"You rated my confidence level at: {goal}%")
 
 st.divider()
