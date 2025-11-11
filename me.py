@@ -181,6 +181,9 @@ st.markdown(f"""<h2 style='font-size:40px; text-align:center; text-shadow: 0 0 5
             </ul>
             """, unsafe_allow_html=True)
 
+goal = st.slider("On a scale of 0 to 100, how confident are you that I will achieve my goals?", 0, 100, 75)
+st.write(f"You rated my confidence level at: {goal}%")
+
 st.divider()
 
 #---- Contact Information --- #
